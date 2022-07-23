@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;1,200;1,300&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+      <form id="search-form" class="container" >
+
+        <input 
+          type="cityname" 
+          id="cityname-input" 
+          placeholder="Enter cityname" 
+        required>
+
+        <input 
+          type="submit" 
+          value="Search"
+          class = "myButton"
+          id = "current-search">
+      
+      </form>
+
+    <button id="currentLocationButton" class="myButton">
+      Current location
+    </button>
+
+      <p class = "town" id = "current-location" > Lisboa </p>
+
+
+      <h2 id="current-date"></h2>
+      <img src="images/sunny.png" alt="sunny" />
+      <h1 id="current-temperature">25°C</h1>
+
+      <h2>Upcoming days</h2>
+
+      <div class="row">
+        <div class="col forecast">
+          Tuesday, 28 June <br />
+          ☁️<br />24°C
+        </div>
+        <div class="col forecast">
+          Wednesday, 29 June <br />
+          ⛅<br />25°C
+        </div>
+        <div class="col forecast">
+          Thursday, 30 June <br />
+          🌦️<br />24°C
+        </div>
+        <div class="col forecast">
+          Friday, 1 July <br />
+          🌤️<br />25°C
+        </div>
+        <div class="col forecast">Saturday, 2 July <br />☀️<br />27°C</div>
+      </div>
+
+      <br />
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
