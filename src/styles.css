@@ -1,0 +1,65 @@
+body {
+  font-family: "Nunito", "Roboto", sans-serif;
+  margin: 20px 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 22px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.town {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.btn-outline-secondary {
+  background-color: rgb(195, 231, 252);
+  color: aliceblue;
+  border-color: rgb(180, 179, 179);
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgb(152, 213, 248);
+  border-color: rgb(180, 179, 179);
+  transition: all 200ms linear;
+}
+
+.forecast {
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: gray;
+  box-shadow: 3px 7px 7px rgb(152, 213, 248);
+}
+
+img {
+  max-width: 100%;
+}
+
+big-text {
+  font-size: 466px;
+  text-align: left;
+}
+
+.myButton {
+  margin-top: 20px;
+  border-color: gray;
+  box-shadow: 3px 3px 7px rgb(152, 213, 248);
+}
+
+.container {
+  padding: 0;
+  text-align: left;
+}
