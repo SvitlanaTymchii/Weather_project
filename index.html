@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -26,28 +27,28 @@
   </head>
 
   <body>
-      <form id="search-form" class="container" >
+    <div class="container">
+      <form id="search-form" class="container">
+        <input
+          type="cityname"
+          id="cityname-input"
+          placeholder="Enter cityname"
+          required
+        />
 
-        <input 
-          type="cityname" 
-          id="cityname-input" 
-          placeholder="Enter cityname" 
-        required>
-
-        <input 
-          type="submit" 
+        <input
+          type="submit"
           value="Search"
-          class = "myButton"
-          id = "current-search">
-      
+          class="myButton"
+          id="current-search"
+        />
       </form>
 
-    <button id="currentLocationButton" class="myButton">
-      Current location
-    </button>
+      <button id="currentLocationButton" class="myButton">
+        Current location
+      </button>
 
-      <p class = "town" id = "current-location" > Lisboa </p>
-
+      <p class="town" id="current-location">Lisboa</p>
 
       <h2 id="current-date"></h2>
       <img src="images/sunny.png" alt="sunny" />
@@ -76,11 +77,14 @@
       </div>
 
       <br />
+      <a
+        href="https://github.com/SvitlanaTymchii/Weather_project"
+        target="_blank"
+      >
+        Open-source code
+      </a>
+      by Svitlana Tymchii
     </div>
-
-    <a href = "https://github.com/SvitlanaTymchii/Weather_project" target = "_blank"> Open-source code </a>  by Svitlana Tymchii 
-    
-
 
     <script src="index.js"></script>
   </body>
